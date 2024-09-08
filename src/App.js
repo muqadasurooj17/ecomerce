@@ -1,10 +1,17 @@
-
-
+import { Routes, Route } from 'react-router-dom';
+import Home from "./screens/home";
+import ProductDetails from './screens/productDetails';
+import NotFound from './screens/notFound';
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={< ProductDetails />}
+        />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 

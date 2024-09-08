@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --primary-color: #FFC72C; 
+  --secondary-color:#141414;
+}
+
+  .header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: large;
+    height: 100px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  }
+  .search-input{
+    width: 30%;
+    height: 25px;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .btn {
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    font-family: Arial;
+    color: var(--secondary-color);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  .productCard{
+    width: 1px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
