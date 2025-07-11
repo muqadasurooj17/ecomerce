@@ -30,6 +30,7 @@ const ProductCard = ({
           <CardText className="text-secondary small">
             {description}
           </CardText>
+          //added descriotion and view more 
           <Button color="primary" onClick={onViewMore}>
             View More
           </Button>
